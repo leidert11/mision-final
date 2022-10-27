@@ -20,7 +20,7 @@ const parrafoSegundo=document.querySelector('.textoSegundo')
     valido = document.getElementById('emailOK');
         
     emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
-    //Se muestra un texto a modo de ejemplo, luego va a ser un icono
+    //validacion de correo
     if (emailRegex.test(campo.value)) {
       valido.innerText = "correo válido";
     } else {
