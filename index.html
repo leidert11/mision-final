@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mision</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img style="height: 35px;" src="./logo - coex.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="inicio" style="width: 5rem;height: 2.7rem;text-align: center;">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn_nav">
+              Contenido
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#acerca" id="btn_nav">Acerca</a></li>
+              <li><a class="dropdown-item" href="#opciones" id="btn_nav">Opciones</a></li>
+              <li><a class="dropdown-item" href="#preguntas" id="btn_nav">Preguntas frecuentes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a type="button" class="btn nav-link" data-bs-toggle="modal" data-bs-target="#registrar" style="width: 5rem;height: 2.7rem;text-align: center;" id="btn_nav">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="clearfix"
+    style="width: 60%;margin: 0 auto;;margin-top: 100px;  border-radius: 5%; background-color: rgb(235, 235, 235);">
+    <img src="./images/img4.png" style="width: 300px;border-radius: 5%;margin-top: 10px;"
+      class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    <h2 style="margin-left: 20px;" id="acerca">COEX- Desarrollo de talento TI</h2>
+    <p style="margin-left: 20px;">Todo el mundo deberia saber programar porque te enseña a pensar- Steve Jobs<br><br>
+    Deseas ser un developers junior, tener un optimo aprendizaje con una interactividad en los ejercicios, estudia con nosotros 
+    COEX te dara todo el conocimiento para superarte siendo programador
+    </p><br>
+    <button id="btn_cont" type="button" style="background-color: rgb(18, 0, 61);border:0;border-radius:5px;height:2.5rem;;width: 6rem;text-decoration: none;"
+      class="btn_cont" ><a href="#contacto" style="text-decoration: none;color: white;">Contactanos</a></button>
+  </div>
+
+  <div class="container col-mb-12" style="margin-top: 100px;" id="opciones">
+    <h2 style="text-align: center; color:rgb(18, 0, 61);">¿Que opinan nuestros(as) clientes?</h2><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" style="background-color: rgb(235, 235, 235);">
+          <img src="./images/img1.png" style="width: 170px; margin:0 auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Me agrada mucho el ambiente de aprendizaje, siento que poco a poco aprendo mas, los profesores
+               te ayudan en todo lo que tu necesites </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="background-color: rgb(235, 235, 235);">
+          <img src="./images/img2.png" style="width: 170px; margin:0 auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Llevo estudiando programacion durante un año de forma autodidacta, al ingrear a COEX siento que mis
+               conocimientos se ampliaro y que puedo aprender mas
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="background-color: rgb(235, 235, 235);">
+          <img src="./images/img3.png" style="width: 170px; margin:0 auto;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Es muy complicado esudiar y trabajar pero con los multiples horarios que maneja COEX no hay ningun problema, 
+             y lo mejor es que te dan un año de experiencia trabajando con ellos
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container " style="width: 820px; height: 320px ;border-radius: 20px; margin-top: 80px;margin-bottom: 50px;">
+    <h2 style="text-align: center; border-radius: 5px; background-color: rgb(18, 0, 61);border:0;border-radius:5px;height:2.5rem;color: white;" class="" id="preguntas">PREGUNTAS FRECUENTES</h2>
+    <div class="accordion accordion-flush col-md-12" id="accordionFlushExample" style="margin: 0 auto;">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            deseo inscribirme
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">ven  nuestro campues nuestros asesores te daran toda la informacion y guis para el proceso</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            que horarios manejan
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">manejamos 4 horarios de 6 AM a 10 AM, de 10 AM a 2 PM, de 2 PM a 6 PM y de 6 PM a 10 PM</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            ¿cual es el costo por semestre?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">El bootcamp COEX te da la opcion de estudiar gratis, la unica condicion que te pedimos es que tengas un buen rendimiento y no desistir del programas</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            ¿donde haria las practias laborales despues de terinar la capacitacion?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">dependiendo de tu renimiento te enviaremos a las respectivas empresas con las cuales tenemos convenio</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer class="text-center " style="margin-top: 60px;">
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <img src="./logo - coex.svg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Empresa
+          </h6>
+          <p>
+            Acerca<br>
+            Servicios<br>
+            Gerencia<br>
+            Fabrica de software
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Educacion
+          </h6>
+          <p>
+            Seleccion<br>
+            Modulos<br>
+            Preguntas<br>
+            Entrenamiento<br>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3"></i> Direccion: Calle 35 # 32-85</p>
+          <p id="contacto">
+            <i class="fas fa-envelope me-3"></i>
+            Telefono: (+57)311 883 9480
+          </p>
+          <p><i class="fas fa-phone me-3"></i>Correo: gerencia@coex.com.co</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</footer> 
+
+<div class="modal" id="registrar" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: rgb(255, 255, 255); border-radius: 20px;">
+      <div class="modal-header">
+        <h5 class="modal-title">Registro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Ingrese los siguientes datos para comunicarnos lo antes poible:</p>
+        <label for="">Nombres</label><br>
+        <input type="text" id="nombre" onkeypress="return Validacion(this, 50)"><br>
+        <label for="">Apellidos</label><br>
+        <input type="text"  id="apellido"onkeypress="return Validacion(this, 50)"><br>
+        Correo electronico: <br>
+        <input id="email">
+
+        <label for="">Celular</label><br>
+        <input type="number" id="numero"onkeypress="return Validacion(this, 10)">
+        <p class="textoPrimero"></p><br>
+        <span id="emailOK"></span><br>
+        <p class="textoSegundo"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="cancelar" data-bs-dismiss="modal" >Cancelar</button>
+        <button type="button" class="btn" id="enviar" >Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="fanart"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
